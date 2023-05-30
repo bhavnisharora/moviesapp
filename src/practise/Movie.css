@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    margin: 40px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 600px;
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, .2), 3px 3px 10px 0 rgba(0, 0, 0, .2);
+    width: 350px;
+    border: 2px solid #ccc;
+}
+
+.cards img {
+    padding-top: 10px;
+}
+
+.title {
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(74, 74, 214);
+}
+
+.input-field {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    outline: none;
+    width: 200px;
+    font-family: 'helvetica';
+}
+ 
+.set-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+input[type=submit] {
+    padding: 3px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 5px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-family: 'arial';
+    background-color: blue;
+}
+input[type=submit]:hover{
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+}
