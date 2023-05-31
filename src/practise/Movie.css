@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -47,12 +48,12 @@
     width: 200px;
     font-family: 'helvetica';
 }
- 
+
 .set-form {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 
 input[type=submit] {
     padding: 3px 12px;
@@ -66,7 +67,8 @@ input[type=submit] {
     font-family: 'arial';
     background-color: blue;
 }
-input[type=submit]:hover{
+
+input[type=submit]:hover {
     color: blue;
     border: 1px solid blue;
     background-color: white;

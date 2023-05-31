@@ -2,7 +2,7 @@ import React, {useState } from "react";
 import "./Movie.css";
 import axios from "axios";
 const Movie = () => {
-    const [text, settext] = useState(true);
+    const [text, settext] = useState("");
     const [movie, setmovie] = useState([]);
     //   const [status, setStatus] = useState("");
 
@@ -57,7 +57,7 @@ const Movie = () => {
                     onChange={changedata}
                 />
 
-                <input type="submit" value="search" disabled={text.length === 0} />
+                <input type="submit" value="search" disabled={text.length===0} />
             </form>
             {movie && movie.length > 0 && <h4 style={{ textAlign: 'center', marginTop: '20px' }}>Here are some results.....</h4>}
             {!movie && <h4 style={{ color: "black", textAlign: 'center', marginTop: '20px' }}>No data found!</h4>}
