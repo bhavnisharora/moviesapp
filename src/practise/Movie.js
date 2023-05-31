@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, {useState } from "react";
 import "./Movie.css";
 import axios from "axios";
 const Movie = () => {
