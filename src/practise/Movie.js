@@ -3,7 +3,7 @@ import "./Movie.css";
 import axios from "axios";
 const Movie = () => {
     const [text, settext] = useState(true);
-    const [movie, setmovie] = useState();
+    const [movie, setmovie] = useState([]);
     //   const [status, setStatus] = useState("");
 
     const getdata = (e) => {
