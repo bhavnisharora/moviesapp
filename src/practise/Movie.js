@@ -1,3 +1,6 @@
+---
+layout: default
+---
 import React, { useEffect, useState } from "react";
 import "./Movie.css";
 import axios from "axios";
